@@ -1,0 +1,41 @@
+Dbody{ 
+    font-family: Verdana;
+
+}
+
+body{background-color:#ecd8cc;}
+
+/* Centrar main*/
+main{
+    max-width:80%;
+    margin: 0 auto;
+}
+
+/*Header y main*/
+
+header{
+  background-color:#ecd8cc; 
+  text-align: center; 
+  /*para separar un poco las lineas*/
+  line-height: 2;
+}
+
+h1, h2 {
+    background-color:white;
+    font-family: 'Oswald', sans-serif;;
+text-transform: uppercase;
+}
+h1{
+    color:#FB5266
+}
+h2 {
+    color:#3A6CF5;
+
+}
+
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
