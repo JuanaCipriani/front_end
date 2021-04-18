@@ -1,41 +1,87 @@
-Dbody{ 
-    font-family: Verdana;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+body{
+    background:lightgrey;
+}
+h1 {
+  color: #b69c8c;
+  background-color: white;
+  font-size: 42px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 
 }
 
-body{background-color:#ecd8cc;}
 
-/* Centrar main*/
-main{
-    max-width:80%;
-    margin: 0 auto;
+main {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  
+}
+main aside {
+  width: 700px;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-/*Header y main*/
+main aside h2 {
+  background-color: white;
+}
+main aside .bg {
+  background-color: white;
+}
+.principal-information{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+align-items: center;
+height: 380px;
+}
+.secondary-information{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+align-items: center;
+height: 180px;
 
-header{
-  background-color:#ecd8cc; 
-  text-align: center; 
-  /*para separar un poco las lineas*/
-  line-height: 2;
 }
 
-h1, h2 {
-    background-color:white;
-    font-family: 'Oswald', sans-serif;;
-text-transform: uppercase;
+.icono a i{
+    font-size: 40px;
+    color: #b69c8c;
 }
-h1{
-    color:#FB5266
+.wrap {
+    background: #ecd8cc;
+    
 }
-h2 {
-    color:#3A6CF5;
-
+.work-section {
+  padding: 25px;
+}
+.education-section {
+  padding: 25px;
+}
+.perfil {
+  border-radius: 50%;
 }
 
-.item-detail{
-    font-style: italic;
-    font-weight: bold;
+dt {
+  font-weight: bold;
+  padding: 15px;
 }
 
-
+.titulo {
+  background-color: white;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  padding: 20 px;
+}
